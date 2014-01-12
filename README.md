@@ -1,13 +1,17 @@
 ##########################################################################
-`(scheme->ruby
+```
+(scheme->ruby
  (lambda (repl)
-  (print (eval (read)))))`
+  (print (eval (read)))))
+```
 
-`(ruby->scheme
+```
+(ruby->scheme
  (lambda (repl)
   (print
    (eval
-    (read)))))`
+    (read)))))
+```
 ##########################################################################
  Title : repl.reverse ruby lisp like evaluator
  Author : Stuart Gerstein <stu@rubyprogrammer.net>
